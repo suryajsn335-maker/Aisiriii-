@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aisiriiiiii 💖 Will You Be My Valentine?</title>
+<style>
+* { box-sizing: border-box; }
+body {
+margin: 0;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg, #ff758c, #ff7eb3);
+overflow: hidden;
+}
+
+
+.card {
+background: white;
+padding: 2.5rem 3rem;
+border-radius: 26px;
+text-align: center;
+box-shadow: 0 25px 50px rgba(0,0,0,0.18);
+max-width: 420px;
+animation: pop 0.6s ease-out;
+}
+
+
+@keyframes pop {
+from { transform: scale(0.75) rotate(-2deg); opacity: 0; }
+to { transform: scale(1) rotate(0); opacity: 1; }
+}
+
+
+h1 {
+margin-top: 0;
+color: #ff2e63;
+font-size: 2.1rem;
+}
+
+
+p {
+color: #444;
+font-size: 1.05rem;
+margin-bottom: 1.6rem;
+line-height: 1.5;
+}
+
+
+.name {
+font-size: 2.4rem;
+color: #e6004c;
+}
+
+
+.buttons {
+display: flex;
+gap: 1rem;
+justify-content: center;
+position: relative;
+}
+
+
+button {
+border: none;
+padding: 0.85rem 1.8rem;
+font-size: 1rem;
+border-radius: 999px;
+cursor: pointer;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+button:hover {
+transform: translateY(-2px) scale(1.05);
+box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+</html>
